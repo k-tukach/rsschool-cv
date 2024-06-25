@@ -3,7 +3,7 @@
 * **Phone:** *+375293297153*
 * **e-mail:** *kirill.tukah@gmail.com*
 * **GitHub:** *[k-tukach](https://github.com/k-tukach)* 
-* **Discord:** *[k-tukach](https://discord.com/users/425671657005252608)*
+* **Discord:** *mc.ker(@k-tukach)*
 ## About me: 
 *I was born in Svetlogorsk, Belarus in 2004, and i am now 19 y.o. For 16 years i lived in Gomel, where i studying at the GSTU majoring in robotics. Was selected by the university for individual practice as a design engineer. In parallel with my studies, i worked as a packer in a company "Freshpack solutions". I am sociable, i like self-development and computer games. My main goal is to get a job at an IT company.*
 ## My skills:
