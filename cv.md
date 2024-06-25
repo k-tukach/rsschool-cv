@@ -1,5 +1,5 @@
 # Tukach Kirill
-![my photo](/src/assets/images/photo.jpg)
+<img src="/src/assets/images/photo.jpg" width="250"/>
 ## My contacts
 * **Phone:** *+375293297153*
 * **e-mail:** *kirill.tukah@gmail.com*
