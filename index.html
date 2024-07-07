@@ -10,28 +10,28 @@
     <body>
         <header class="header">
             <img src="src/assets/icons/tk.jpg" alt="logo" class="logo">
-            <div class="container header-container">
-                <nav class="nav">
+            <div>
+                <nav>
                     <ul class="nav-list">
-                        <li class="nav-item">
+                        <li>
                             <a href="#my-contacts" class="nav-link">My contacts</a>
                         </li>
-                        <li class="nav-item">
+                        <li>
                             <a href="#about-me" class="nav-link">About me</a>
                         </li>
-                        <li class="nav-item">
+                        <li>
                             <a href="#my-skills" class="nav-link">My skills</a>
                         </li>
-                        <li class="nav-item">
+                        <li>
                             <a href="#education" class="nav-link">Education</a>
                         </li>
-                        <li class="nav-item">
+                        <li>
                             <a href="#code" class="nav-link">Code example</a>
                         </li>
-                        <li class="nav-item">
+                        <li>
                             <a href="#experience" class="nav-link">Experience</a>
                         </li>
-                        <li class="nav-item">
+                        <li>
                             <a href="#languages" class="nav-link">languages</a>
                         </li>                        
                     </ul>
@@ -40,22 +40,22 @@
             <p class="burger">Burger</p>
         </header>
         <section class="section-profile">
-            <article class="section-profile_avatar">
+            <article>
                 <img src="src/assets/images/photo.jpg" alt="avatar" class="profile-avatar">
             </article>
             <h1>My CV</h1>
-            <div class="section-profile_title">
-                <h3 class="profile-name">Tukach Kirill</h3>
-                <h5 class="profile-location">Belarus, Gomel</h5>
+            <div>
+                <h3>Tukach Kirill</h3>
+                <h5>Belarus, Gomel</h5>
             </div>
-            <h4 class="profile-speciality">Robotics engineer</h4>
+            <h4>Robotics engineer</h4>
         </section>
         <main class="main">
             <div class="container main-container">
                 <div class="section-left">
                     <section class="section-contacts" id="my-contacts">
-                        <h2 class="section-title">My contacts</h2>
-                        <ul class="section-list">
+                        <h2>My contacts</h2>
+                        <ul>
                             <li class="list_items">
                                 <div class="icons contacts-phone"></div>
                                 <span class="phone"><a class="contacts-link" href="tel:+375293297153">+375293297153</a></span>
@@ -70,24 +70,22 @@
                             </li>
                             <li class="list_items">
                                 <div class="icons contacts-discord"></div>
-                                <span class="discord"><a class="contacts-link" href="https://discord.com/users/425671657005252608" target="_blank">k_tukach</a></span>
+                                <span><a class="contacts-link" href="https://discord.com/users/425671657005252608" target="_blank">k_tukach</a></span>
                             </li>
                         </ul>
                     </section>                    
                     <section class="section-education" id="education">
-                        <h2 class="section-title">Education</h2>
-                        <ul class="section-list">
-                            <li class="section-item education">
+                        <h2>Education</h2>
+                        <ul>
+                            <li>
                                 Belarusian university
-                                <ul class="section-list GSTU">
-                                    <li class="section-item">
-                                        <ul class="title">
-                                            Gomel State Technical University                                        
-                                            <ul class="section-list">
-                                                <li class="section-item">
-                                                    Design engineer specializing in "Industrial robots and robotic systems"
-                                                </li>
-                                            </ul>
+                                <ul class="GSTU">
+                                    <li>
+                                        Gomel State Technical University                                        
+                                        <ul>
+                                            <li>
+                                                Design engineer specializing in "Industrial robots and robotic systems"
+                                            </li>
                                         </ul>
                                     </li>
                                 </ul>
@@ -95,49 +93,48 @@
                         </ul>
                     </section>                   
                     <section class="section-code" id="code">
-                        <h2 class="section-title">Code</h2>
+                        <h2>Code</h2>
                             <pre class="pre">
                                 <code>
-                                    function rentalCarCost(d) {
-                                        var amount,
-                                         dailyCharge = 40;
-                                        if(d >= 7) {
-                                         amount = (dailyCharge * d) - 50;
-                                        } else if (d >= 3) {
-                                         amount = (dailyCharge * d) - 20;
-                                        } else {
-                                         amount = dailyCharge * d;
-                                        }
-                                        return amount;
-                                    }
+function rentalCarCost(d) {
+    var amount,
+    dailyCharge = 40;
+    if(d >= 7) {
+    amount = (dailyCharge * d) - 50;}
+    else if (d >= 3) {
+    amount = (dailyCharge * d) - 20;}
+    else {
+    amount = dailyCharge * d;}
+    return amount;
+}
                                 </code>
                             </pre>                            
                     </section>                    
                 </div>
                 <div class="section-right">
                     <section class="section-skills" id="my-skills">
-                        <h2 class="section-title">My skills</h2>
-                        <ul class="section-list section-list_skills">
+                        <h2>My skills</h2>
+                        <ul>
                             <li class="list_items skills">
                                 <div class="icons skills-phython"></div>
-                                <span class="title_phython">Phython</span>
+                                <span>Phython</span>
                             </li>
                             <li class="list_items skills">
                                 <div class="icons skills-cplusplus"></div>
-                                <span class="title_cplusplus">C++</span>
+                                <span>C++</span>
                             </li>
                             <li class="list_items skills">
                                 <div class="icons skills-csharp"></div>
-                                <span class="title_csharp">C#</span>
+                                <span>C#</span>
                             </li>
                             <li class="list_items skills">
                                 <div class="icons skills-assembler"></div>
-                                <span class="title_assembler">Assembler</span>
+                                <span>Assembler</span>
                             </li>
                         </ul>
                     </section>
                     <section class="section-about" id="about-me">
-                        <h2 class="section-title">About me</h2>
+                        <h2>About me</h2>
                         <p>
                             I was born in Svetlogorsk, Belarus in 2004, and i am now 19 y.o. 
                             For 16 years i lived in Gomel, where i studying at the GSTU majoring in robotics.
@@ -152,11 +149,11 @@
                         </p>
                     </section>   
                     <section class="section-experience" id="experience">
-                        <h2 class="section-title">Experience</h2>
+                        <h2>Experience</h2>
                             <div>This is my first project CV.</div>
                     </section>                 
                     <section class="section-languages" id="languages">
-                        <h2 class="section-title">Languages</h2>
+                        <h2>Languages</h2>
                         <div>English: B1</div>
                         <div>Belarusian: Native</div>
                         <div>Russian: Native</div>
@@ -167,12 +164,8 @@
         <footer class="container footer">
             <span>2024</span>
             <div class="footer-container">
-                <div class="icons contacts_github_footer">
-                    <a href="https://github.com/k-tukach" target="_blank" class="footer-link"></a>
-                </div>
-                <div class="icons contacts_rsschool_footer">
-                    <a href="https://rs.school/js/" target="_blank" class="footer-link"></a>
-                </div>
+                <a href="https://github.com/k-tukach" target="_blank" class="footer-link"><img src="src/assets/icons/github.svg" class="icons"></a>
+                <a href="https://rs.school/courses/javascript-ru" target="_blank" class="footer-link"><img src="src/assets/icons/rsschool.png" class="icons"></a>
             </div>
         </footer>
     </body>
