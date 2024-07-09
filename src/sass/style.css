@@ -139,6 +139,10 @@ p {
   margin: 0 40px;
 }
 
+.CV-link {
+  color: #0a2fd4;
+}
+
 .logo {
   border-radius: 50%;
   width: 50px;
