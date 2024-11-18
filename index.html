@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="src/assets/icons/tk.jpg">
+        <title>CV Tukach Kirill</title>
+        <link rel="stylesheet" href="src/sass/style.css">
+    </head>
+    <body>
+        <header class="header">
+            <img src="src/assets/icons/tk.jpg" alt="logo" class="logo">
+            <div>
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li>
+                            <a href="#my-contacts" class="nav-link">My contacts</a>
+                        </li>
+                        <li>
+                            <a href="#about-me" class="nav-link">About me</a>
+                        </li>
+                        <li>
+                            <a href="#my-skills" class="nav-link">My skills</a>
+                        </li>
+                        <li>
+                            <a href="#education" class="nav-link">Education</a>
+                        </li>
+                        <li>
+                            <a href="#code" class="nav-link">Code example</a>
+                        </li>
+                        <li>
+                            <a href="#experience" class="nav-link">Experience</a>
+                        </li>
+                        <li>
+                            <a href="#languages" class="nav-link">languages</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <p class="burger">Burger</p>
+        </header>
+        <section class="section-profile">
+            <img src="src/assets/images/photo.jpg" alt="avatar" class="profile-avatar">
+            <h1>My CV</h1>
+            <div>
+                <h3>Tukach Kirill</h3>
+                <h5>Belarus, Gomel</h5>
+            </div>
+            <h4>Robotics engineer</h4>
+        </section>
+        <main class="main">
+            <div class="main-container">
+                <div class="section-left">
+                    <section class="section-contacts" id="my-contacts">
+                        <h2>My contacts</h2>
+                        <ul>
+                            <li class="list_items">
+                                <div class="icons contacts-phone"></div>
+                                <span class="phone"><a class="contacts-link" href="tel:+375293297153">+375293297153</a></span>
+                            </li>
+                            <li class="list_items">
+                                <div class="icons contacts-e-mail"></div>
+                                <span class="e-mail"><a class="contacts-link" href="mailto:kirill.tukach@gmail.com" target="_blank">kirill.tukach@gmail.com</a></span>
+                            </li>
+                            <li class="list_items">
+                                <div class="icons contacts-github"></div>
+                                <span class="github"><a class="contacts-link" href="https://github.com/k-tukach" target="_blank">k-tukach</a></span>
+                            </li>
+                            <li class="list_items">
+                                <div class="icons contacts-discord"></div>
+                                <span><a class="contacts-link" href="https://discord.com/users/425671657005252608" target="_blank">k_tukach</a></span>
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="section-education" id="education">
+                        <h2>Education</h2>
+                        <ul>
+                            <li>
+                                Belarusian university
+                                <ul class="GSTU">
+                                    <li>
+                                        Gomel State Technical University
+                                        <ul>
+                                            <li>
+                                                Design engineer specializing in "Industrial robots and robotic systems"
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="section-code" id="code">
+                        <h2>Code</h2>
+                            <pre class="pre">
+                                <code>
+function rentalCarCost(d) {
+    var amount,
+    dailyCharge = 40;
+    if(d &gt;= 7) {
+    amount = (dailyCharge * d) - 50;}
+    else if (d &gt;= 3) {
+    amount = (dailyCharge * d) - 20;}
+    else {
+    amount = dailyCharge * d;}
+    return amount;
+}
+                                </code>
+                            </pre>
+                    </section>
+                </div>
+                <div class="section-right">
+                    <section class="section-skills" id="my-skills">
+                        <h2>My skills</h2>
+                        <ul>
+                            <li class="list_items skills">
+                                <div class="icons skills-phython"></div>
+                                <span>Phython</span>
+                            </li>
+                            <li class="list_items skills">
+                                <div class="icons skills-cplusplus"></div>
+                                <span>C++</span>
+                            </li>
+                            <li class="list_items skills">
+                                <div class="icons skills-csharp"></div>
+                                <span>C#</span>
+                            </li>
+                            <li class="list_items skills">
+                                <div class="icons skills-assembler"></div>
+                                <span>Assembler</span>
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="section-about" id="about-me">
+                        <h2>About me</h2>
+                        <p>
+                            I was born in Svetlogorsk, Belarus in 2004, and i am now 19 y.o.
+                            For 16 years i lived in Gomel, where i studying at the GSTU majoring in robotics.
+                        </p>
+                        <p>
+                            Was selected by the university for individual practice as a design engineer.
+                            In parallel with my studies, i worked as a packer in a company "Freshpack solutions".
+                        </p>
+                        <p>
+                            I am sociable, i like self-development and computer games.
+                            My main goal is to get a job at an IT company.
+                        </p>
+                    </section>
+                    <section class="section-experience" id="experience">
+                        <h2>Experience</h2>
+                            <div>This is my first project <a class="CV-link" href="https://k-tukach.github.io/rsschool-cv/" target="_blank">CV</a>.</div>
+                    </section>
+                    <section class="section-languages" id="languages">
+                        <h2>Languages</h2>
+                        <div>English: B1</div>
+                        <div>Belarusian: Native</div>
+                        <div>Russian: Native</div>
+                    </section>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <span>2024</span>
+            <div class="footer-container">
+                <a href="https://github.com/k-tukach" target="_blank" class="footer-link"><img src="src/assets/icons/github.svg" alt="github link" class="icons"></a>
+                <a href="https://rs.school/courses/javascript-ru" target="_blank" class="footer-link"><img src="src/assets/icons/rsschool.png" alt="rsschool link" class="icons"></a>
+            </div>
+        </footer>
+    </body>
+</html>
